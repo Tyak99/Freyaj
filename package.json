@@ -1,0 +1,25 @@
+{
+  "name": "freyaj",
+  "version": "1.0.0",
+  "description": "Freyaj",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tyak99/Freyaj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tyak99/Freyaj/issues"
+  },
+  "homepage": "https://github.com/Tyak99/Freyaj#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3"
+  }
+}
