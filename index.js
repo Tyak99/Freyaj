@@ -5,6 +5,7 @@ const app = express();
 const test = () => {
   console.log('this is running');
   console.log(add(5, 6));
+  console.log(add(10, 15));
 };
 
 test();
