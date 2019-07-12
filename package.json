@@ -4,7 +4,7 @@
   "description": "Freyaj",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon --exec babel-node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,8 +18,15 @@
   },
   "homepage": "https://github.com/Tyak99/Freyaj#readme",
   "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/node": "^7.5.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.17.3"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.5.4",
+    "express": "^4.17.1",
+    "react": "^16.8.6"
   }
 }
