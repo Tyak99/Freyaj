@@ -1,8 +1,10 @@
 import express from 'express';
+import add from './funcA';
 
 const app = express();
 const test = () => {
   console.log('this is running');
+  console.log(add(5, 6));
 };
 
 test();
